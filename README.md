@@ -1,1 +1,1 @@
-# LLM-Zoomcamp
+## LLM Zoomcamp

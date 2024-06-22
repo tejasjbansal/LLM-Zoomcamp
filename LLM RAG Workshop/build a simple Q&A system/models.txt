@@ -1,0 +1,53 @@
+**Model**: `cosmosrp-001`
+**Quality**: Best Quality, Roleplay Model.
+**Context Size**: 8k Tokens.
+**Availability**: ✅ Public, Free, Unlimited, Uncensored.
+**Usage**: Unlimited, No API key needed.
+**Base URLs (Endpoints)**:
+Roleplay: https://api.pawan.krd/cosmosrp/v1
+
+**Model**: `pai-001`, `pai-001-rp`
+**Quality**: Very Good Quality, for both roleplay and general use.
+**Context SIze**: 32k Tokens.
+**Availability**: ✅ Public.
+**Usage**: 1 Credit per 2000 tokens.
+**Base URLs (Endpoints)**:
+Developers: https://api.pawan.krd/pai-001/v1
+Roleplay: https://api.pawan.krd/pai-001-rp/v1
+
+**Model**: `pai-001-light`, `pai-001-light-rp`
+**Quality**: Good Quality, for both roleplay and general use.
+**Context SIze**: 16k Tokens.
+**Availability**: ✅ Public.
+**Usage**: 1 Credit per 4000 tokens.
+**Base URLs (Endpoints)**:
+Developers: https://api.pawan.krd/pai-001-light/v1
+Roleplay: https://api.pawan.krd/pai-001-light-rp/v1
+
+**Model**: `gpt-3.5-unfiltered`
+**Context SIze**: 8k Tokens.
+**Availability**: ✅ Public.
+**Usage**: 1 Credit per 4000 tokens.
+**Base URLs (Endpoints)**: https://api.pawan.krd/gpt-3.5-unfiltered/v1
+
+**Model**: `gpt-3.5-turbo`
+**Context SIze**: 4k Tokens.
+**Availability**:  ⚠️ Supporters Only 👉 https://discord.com/channels/1055397662976905229/1063383269338525737
+**Usage**: 1 Credit per 2000 tokens.
+**Base URLs (Endpoints)**: https://api.pawan.krd/gpt-3.5-turbo/v1
+
+**Model**: `gpt-4o`
+**Context SIze**: 32k Tokens.
+**Availability**: ⚠️ `@Supporter I` and above Only 👉 https://discord.com/channels/1055397662976905229/1063383269338525737
+**Usage**: 1 Credit per 1000 tokens.
+**Base URLs (Endpoints)**: https://api.pawan.krd/gpt-4o/v1
+
+
+====❌TEMPORARILY NOT AVAILABLE ❌====
+~~**Model**: `pai-002-rp`
+**Quality**: Our best quality model.
+**Context SIze**: 32k Tokens.
+**Availability**: ❌ Temporarily Not Available
+**Usage**: 1 Credit per 1000 tokens.
+**Base URLs (Endpoints)**:
+Roleplay: https://api.pawan.krd/pai-002-rp/v1 ~~
