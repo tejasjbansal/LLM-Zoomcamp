@@ -22,3 +22,5 @@ Rag is a technique used in large language models (LLMs) to improve their perform
 2. **Augmented Generation**: After retrieving the relevant information, the model uses this data to generate a response. This helps the model produce more accurate, informed, and contextually relevant answers.
 
 In short, RAG combines searching for information (retrieval) with creating responses (generation) to provide better and more reliable answers.
+
+![Blank diagram](https://github.com/tejasjbansal/LLM-Zoomcamp/assets/56173595/c459d2e7-9f2c-4e49-95b3-bb318bee73f6)
