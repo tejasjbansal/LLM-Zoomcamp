@@ -3,7 +3,7 @@ import time
 import json
 
 from openai import OpenAI
-
+from groq import Groq
 from elasticsearch import Elasticsearch
 from sentence_transformers import SentenceTransformer
 
@@ -16,6 +16,7 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "your-api-key-here")
 es_client = Elasticsearch(ELASTIC_URL)
 ollama_client = OpenAI(base_url=OLLAMA_URL, api_key="ollama")
 openai_client = OpenAI(api_key=OPENAI_API_KEY)
+Groq_client = Groq(api_key=os.getenv("GROQ_API_KEY", "your-api-key-here"))
 
 model = SentenceTransformer("multi-qa-MiniLM-L6-cos-v1")
 
@@ -93,8 +94,8 @@ def llm(prompt, model_choice):
             'completion_tokens': response.usage.completion_tokens,
             'total_tokens': response.usage.total_tokens
         }
-    elif model_choice.startswith('openai/'):
-        response = openai_client.chat.completions.create(
+    elif model_choice.startswith('Groq/'):
+        response = Groq_client.chat.completions.create(
             model=model_choice.split('/')[-1],
             messages=[{"role": "user", "content": prompt}]
         )
@@ -135,7 +136,7 @@ def evaluate_relevance(question, answer):
     """.strip()
 
     prompt = prompt_template.format(question=question, answer=answer)
-    evaluation, tokens, _ = llm(prompt, 'ollama/phi3')
+    evaluation, tokens, _ = llm(prompt, 'Groq/llama3-8b-8192')
     
     try:
         json_eval = json.loads(evaluation)
