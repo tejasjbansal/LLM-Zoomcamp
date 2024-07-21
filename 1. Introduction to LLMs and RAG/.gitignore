@@ -12,7 +12,7 @@
 *.p12
 
 # Ignore sensitive configuration files
-.env
+*.env
 .env.local
 *.secret
 *.config
